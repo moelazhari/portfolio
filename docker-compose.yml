@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  nextjs:
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+      - /app/node_modules
