@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Player</title>
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/7.17.0/video.js"></script>
+</head>
+<body>
+    <video id="my-video" class="video-js" controls preload="auto" width="800" height="600" data-setup="{}">
+        <source src="https://www.youtube.com/watch?v=yPhNzYCQtCc&t=11s&ab_channel=videogamedunkey" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        var player = videojs('my-video');
+    </script>
+</body>
+</html>
